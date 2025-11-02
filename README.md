@@ -1,17 +1,17 @@
-# 🧬 Predicting Transcription Factor Binding Sites Using TBiNet
+# Predicting Transcription Factor Binding Sites Using TBiNet
 
 This repository implements **TBiNet (Transcription Binding Interaction Network)** — a deep learning model for predicting **transcription factor binding sites** from genomic DNA sequences.
 
 ---
 
-## 📖 Overview
+## Overview
 
 The model integrates **Convolutional Neural Networks (CNN)**, **Bidirectional LSTMs**, and an **Attention mechanism** to enhance interpretability and predictive performance.  
 It is inspired by the work of Park *et al.*, published in **Scientific Reports (2020)**.
 
 ---
 
-## 🧩 Reference Papers
+## Reference Papers
 
 **1. Primary Paper:**  
 Park, S., Koh, Y., Jeon, H. et al. *Enhancing the interpretability of transcription factor binding site prediction using attention mechanism.*  
@@ -23,7 +23,7 @@ Zhou, J., Troyanskaya, O. G. *Predicting effects of noncoding variants with deep
 
 ---
 
-## 🧠 Model Implementation
+## Model Implementation
 
 The training and evaluation are implemented in the Jupyter notebook:  
 📘 **`tbinet.ipynb`**
@@ -37,7 +37,7 @@ It includes the following stages:
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 The dataset can be downloaded from the **DeepSEA** repository:
 
@@ -54,7 +54,7 @@ data/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Make sure you have the following dependencies installed:
 
@@ -69,7 +69,7 @@ pip install tensorflow-macos tensorflow-metal
 
 ---
 
-## 🚀 Running the Notebook
+## Running the Notebook
 
 1. Open **JupyterLab** or **Jupyter Notebook**.  
 2. Launch and execute each cell in `tbinet.ipynb`.  
@@ -90,7 +90,7 @@ Epoch 24: early stopping
 
 ---
 
-## 📈 Evaluation
+## Evaluation
 
 After training, the model computes:
 
@@ -102,7 +102,7 @@ These results may vary slightly depending on training sample size and random see
 
 ---
 
-## 🧬 Citation
+## Citation
 
 If you use this repository or model in your research, please cite:
 
@@ -116,8 +116,3 @@ and the DeepSEA dataset:
 
 ---
 
-## 👩‍🔬 Author
-
-**Azami**  
-Bioinformatics Researcher  
-📧 [Your email or GitHub link here]
